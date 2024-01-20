@@ -18,10 +18,15 @@ body {
 }
 
 h1{
-    font-family: cursive;
+    font-family: auto;
     text-align: -webkit-center;
     animation: fadeIn 2s ease-in-out;
-    color: burlywood;
+    color: rgb(228, 184, 163);
+    font-style: italic;
+    z-index: 1;
+    position: absolute;
+    top: 25px;
+    left: 25px;
 }
 
 .titledesign{
@@ -30,7 +35,7 @@ h1{
 
 .calcimg{
     height: -webkit-fill-available;
-    filter: blur(6px);
+    filter: blur(8px);
 }
 
 .calculator {
